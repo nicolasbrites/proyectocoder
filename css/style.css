@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.txt-indx {
+    padding: 5px;
+    width: 340px;
+    height: 100px;
+    overflow: hidden;
+}
+
+.txt-acdv {
+    padding: 5px;
+    width: 510px;
+}
+
+body {
+    background-color: #FDFFF9;
+}
+
+.portada-index {
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../mili/galeria/portada1.jpg)
+    
+}
+
+.portada-acercadevartex {
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../mili/acercadevartex/portadaacercadevartex.jpg);
+}
+
+
+.titulo1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    font-size: 40px;
+    margin: 30px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+
+}
+
+.link {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+
+}
+
+.titulo2 {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    margin: 50px;
+
+}
+
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+
+.grid-containeruno {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+    width: 100%;
+
+}
+
+@media all and (max-width: 600px) {
+    .container-uno-index{
+        grid-column: 1 / span 3;
+        margin: 10px;
+    }
+}
+
+.gallery-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-auto-rows: minmax(200px, auto);
+    padding: 40px;
+    gap: 60px;
+
+}
+
+.gallery__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-position: center;
+    filter: opacity(0.9);
+    
+}
+
+.grid-containertres {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 70px;
+    justify-content: center;
+    
+}
+
+.img-maquinas {
+    margin: 80px;
+} 
+
+.pie-pagina {
+    width: 100%;
+    background-color: #909298;
+
+}
+
+.pie-pagina .grupo-1 {
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+
+.pie-pagina .grupo-1 .box h2{
+    color: black;
+    margin-bottom: 5px;
+    font-size: 13px;
+
+}
+
+
+
+.pie-pagina .grupo-1 .box li {
+    color: black;
+    margin-bottom: 5px;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 10px;
+    
+
+}
+.pie-pagina .grupo-2{
+    background-color: black;
+    padding: 5px 5px;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+
+}
