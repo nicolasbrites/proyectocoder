@@ -3,21 +3,12 @@
     padding: 0;
 }
 
-.txt-indx {
-    padding: 5px;
-    width: 340px;
-    height: 100px;
-    overflow: hidden;
-}
-
-.txt-acdv {
-    padding: 5px;
-    width: 510px;
-}
-
 body {
     background-color: #FDFFF9;
 }
+
+    /* seccion index */
+
 
 .portada-index {
     height: 700px;
@@ -27,55 +18,30 @@ body {
     background-image: url(../mili/galeria/portada1.jpg)
     
 }
-
-.portada-acercadevartex {
-    height: 700px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url(../mili/acercadevartex/portadaacercadevartex.jpg);
+.txt-indx {
+    padding: 5px;
+    width: 340px;
+    height: 100px;
+    overflow: hidden;
 }
-
-
-.titulo1 {
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: 400;
-    text-align: center;
-    font-size: 40px;
-    margin: 30px;
-}
-
-nav ul li {
-    display: inline-block;
-    margin: 10px;
-    padding: 10px;
-
-}
-
-.link {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 600;
-    text-decoration: none;
-
-}
-
-.titulo2 {
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 300;
-    text-align: center;
-    margin: 50px;
-
-}
-
 
 .navbar {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    background-color:cornsilk;
 
 }
 
+.navbar:hover {
+    transform: translateZ(0);
+}
+
+.img-index-animation:hover {
+    transform: scale(1.1);
+    transition: all 1s;
+}
 
 .grid-containeruno {
     display: grid;
@@ -85,12 +51,96 @@ nav ul li {
 
 }
 
+.link {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    color: royalblue;
+
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+
+}
+
 @media all and (max-width: 600px) {
     .container-uno-index{
         grid-column: 1 / span 3;
         margin: 10px;
     }
 }
+
+
+
+
+
+    /* fin seccion index     */
+
+
+
+    /* seccion acerca de vartex */
+
+.portada-acercadevartex {
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../mili/acercadevartex/portadaacercadevartex.jpg);
+}
+
+.txt-acdv {
+    padding: 5px;
+    width: 510px;
+}
+
+.grid-containertres {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 70px;
+    justify-content: center;
+    
+}
+
+.img-maquinas {
+    margin: 80px;
+} 
+
+
+
+
+    /* fin seccion acerca de vartex */
+
+    /* titulos */
+
+.titulo1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    font-size: 40px;
+    margin: 30px;
+}
+
+
+
+
+
+.titulo2 {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    margin: 50px;
+
+}
+
+    /* fin titulos */
+
+
+
+
+    /* seccion galeria */
 
 .gallery-container {
     display: grid;
@@ -110,21 +160,19 @@ nav ul li {
     
 }
 
-.grid-containertres {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    margin: 70px;
-    justify-content: center;
-    
-}
 
-.img-maquinas {
-    margin: 80px;
-} 
 
+
+    /* fin seccion galeria */
+
+
+
+
+
+    /* empieza el footer */
 .pie-pagina {
     width: 100%;
-    background-color: #909298;
+    background-color:azure;
 
 }
 
@@ -162,3 +210,4 @@ nav ul li {
     font-size: 12px;
 
 }
+    /* termina el footer */

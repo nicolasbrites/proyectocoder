@@ -16,9 +16,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;400&family=Nanum+Myeongjo:wght@400;700;800&family=Roboto+Slab:wght@200;300;400;500&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600;1,700&family=Work+Sans:wght@200;300;600&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;400&family=Nanum+Myeongjo:wght@400;700;800&family=Roboto+Slab:wght@200;300;400;500&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600;1,700&family=Work+Sans:wght@200;300;600&display=swap"
         rel="stylesheet">
+        <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="shortcut icon" href="./mili/minibar.jpg">
 </head>
@@ -27,7 +28,7 @@
 
 
     <header>
-        <h1 class="titulo1">V A R T E X</h1>
+        <h1 class="titulo1 animate__animated animate__zoomIn" >V A R T E X</h1>
 
         <nav class="navbar">
 
@@ -53,7 +54,7 @@
         <div class="grid-containeruno">
 
             <div class="container-uno-index">
-                <img src="./mili/rsz_11.jpg" alt="bufanda color gris">
+                <img class="img-index-animation" src="./mili/rsz_11.jpg" alt="bufanda color gris">
                 <p class="txt-indx">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi sequi ullam ex,
                     voluptate fuga
                     quas non consectetur rerum commodi! Itaque beatae pariatur eaque distinctio quod velit ipsa dolorem
@@ -62,7 +63,7 @@
 
 
             <div class="container-uno-index">
-                <img src="./mili/rsz_12.jpg" alt="bufanda color azul">
+                <img class="img-index-animation" src="./mili/rsz_12.jpg" alt="bufanda color azul">
                 <p class="txt-indx">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime similique rem
                     voluptate,
                     delectus et aut iste consequatur animi. Culpa doloremque qui vel? Molestias doloremque voluptatibus
@@ -72,7 +73,7 @@
 
 
             <div class="container-uno-index">
-                <img src="./mili/rsz_113.jpg" alt="bufanda color rojo">
+                <img class="img-index-animation" src="./mili/rsz_113.jpg" alt="bufanda color rojo">
                 <p class="txt-indx">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt assumenda vero ad?
                     Nobis illum
                     autem qui aperiam ad laborum suscipit perferendis, at vel consequatur eos totam dolores nam
@@ -116,6 +117,14 @@
         </div>
 
 
+
+
+
+
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+          </script>
 
 </body>
 
