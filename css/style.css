@@ -31,7 +31,8 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     background-color:cornsilk;
-
+    
+    
 }
 
 a:link { color: blue; }/* Enlaces no visitados */
@@ -62,6 +63,7 @@ a:active { color: rgba(255, 7, 7, 0.24); }/* Enlaces activos */
     text-decoration: none;
     color: royalblue;
 
+
 }
 
 nav ul li {
@@ -78,7 +80,21 @@ nav ul li {
     }
 }
 
+@media all and (max-width: 600px) {
+    .navbar{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    }
+    
 
+}
+
+ol, ul {
+    padding-left: 0rem;
+}
 
 
 
