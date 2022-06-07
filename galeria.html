@@ -8,16 +8,12 @@
     <title>Vartex</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&family=Roboto+Slab:wght@200;300;400;500&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600;1,700&family=Work+Sans:wght@200;300;600&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;400&family=Nanum+Myeongjo:wght@400;700;800&family=Nunito+Sans:wght@400;600&family=Roboto+Slab:wght@200;300;400;500&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600;1,700&family=Work+Sans:wght@200;300;600&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="./css1/bootstrap.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
     <link rel="shortcut icon" href="./mili/minibar.jpg">
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -26,31 +22,36 @@
     <header>
         <h1 class="titulo1 animate__animated animate__zoomIn">G A L E R Í A</h1>
 
-        <div class="modificar-barra">
-            <nav class="navbar navbar-light barra-nav">
+        <div>
+            <nav class="navbar navbar-expand-lg nav-bar-color">
                 <div class="container-fluid">
-                    <form class="d-flex">
-                        <input class="form-control" type="search" placeholder="Ej:ropa" aria-label="Search">
-                        <button class="btn btn-outline-success modificar-color-boton" type="submit">Buscar</button>
-                    </form>
+                    <a class="navbar-brand link" href="index.html">VARTEX</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active link" aria-current="page" href="index.html">INICIO</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link link" href="galeria.html">GALERIA</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link link" href="acercadevartex.html">ACERCA DE VARTEX</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Buscar productos.."
+                                aria-label="Search">
+                            <button class="btn btn-outline-success mod-boton" type="submit">BUSCAR</button>
+                        </form>
+                    </div>
                 </div>
-
+            </nav>
         </div>
-
-        </nav>
-
-
-        <nav class="navbar">
-            <ul>
-                <li><a class="link" href="index.html">INICIO</a></li>
-                <li><a class="link" href="galeria.html">GALERÍA</a></li>
-                <li><a class="link" href="acercadevartex.html">ACERCA DE VARTEX</a></li>
-
-
-
-            </ul>
-
-        </nav>
     </header>
 
     <section>
@@ -58,15 +59,27 @@
         <h2 class="titulo2">PASHMINAS DE TEMPORADA</h2>
 
         <div class="gallery-container">
-            <div class="gallery__item"><img src="./mili/galeria/galeria1.jpg" alt="" class="gallery__img"></div>
-            <div class="gallery__item"><img src="./mili/galeria/galeria2.jpg" alt="" class="gallery__img"></div>
-            <div class="gallery__item"><img src="./mili/galeria/galeria3.jpg" alt="" class="gallery__img"></div>
-            <div class="gallery__item"><img src="./mili/galeria/galeria4.jpg" alt="" class="gallery__img"></div>
-            <div class="gallery__item"><img src="./mili/galeria/galeria5.jpg" alt="" class="gallery__img"></div>
-            <div class="gallery__item"><img src="./mili/galeria/galeria6.jpg" alt="" class="gallery__img"></div>
-            <div class="gallery__item"><img src="./mili/galeria/galeria7.jpg" alt="" class="gallery__img"></div>
-            <div class="gallery__item"><img src="./mili/galeria/galeria8.jpg" alt="" class="gallery__img"></div>
-            <div class="gallery__item"><img src="./mili/galeria/galeria9.jpg" alt="" class="gallery__img"></div>
+            <div class="gallery__item img-index-animation"><img src="./mili/galeria/galeria10.jpg" alt="bufanda colgada"
+                    class="gallery__img"></div>
+            <div class="gallery__item img-index-animation"><img src="./mili/galeria/galeria2.jpg" alt="royos de tela"
+                    class="gallery__img">
+            </div>
+            <div class="gallery__item img-index-animation"><img src="./mili/galeria/galeria3.jpg"
+                    alt="pashminas sobre mesa" class="gallery__img"></div>
+            <div class="gallery__item img-index-animation"><img src="./mili/galeria/galeria4.jpg"
+                    alt="estante de pashminas" class="gallery__img"></div>
+            <div class="gallery__item img-index-animation"><img src="./mili/galeria/galeria5.jpg"
+                    alt="pashmina multicolor" class="gallery__img"></div>
+            <div class="gallery__item img-index-animation"><img src="./mili/galeria/galeria11.jpg"
+                    alt="bufandas colgadas varios colores" class="gallery__img"></div>
+            <div class="gallery__item img-index-animation"><img src="./mili/galeria/galeria7.jpg"
+                    alt="bufandas dobladas" class="gallery__img"></div>
+            <div class="gallery__item img-index-animation"><img src="./mili/galeria/galeria8.jpg"
+                    alt="set de lana de colores" class="gallery__img"></div>
+            <div class="gallery__item img-index-animation"><img src="./mili/galeria/galeria9.jpg" alt="muestras de lana"
+                    class="gallery__img"></div>
+            <div class="gallery__item img-index-animation"><img src="./mili/galeria/galeria12.jpg"
+                    alt="bufandas multicolores dobladas" class="gallery__img"></div>
 
         </div>
 
@@ -80,18 +93,17 @@
 
 
             <div class="box">
-                <h2>COMPRAS</h2>
-                <li>Como comprar</li>
-                <li>Envíos</li>
-                <li>Cambios</li>
+                <h2>MI CUENTA</h2>
+                <li class="txt-footer">Mi cuenta</li>
+                <li class="txt-footer">Mis compras</li>
+                <li class="txt-footer">Favoritos</li>
             </div>
 
             <div class="box">
-                <h2>MI CUENTA</h2>
-
-                <li> Mi cuenta</li>
-                <li>Mis compras</li>
-                <li>Favoritos</li>
+                <h2>COMPRAS</h2>
+                <li class="txt-footer">Como comprar</li>
+                <li class="txt-footer">Envíos</li>
+                <li class="txt-footer">Cambios</li>
 
             </div>
 
@@ -106,7 +118,7 @@
 
 
 
-        <script src="./js/bootstrap.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <script>
             AOS.init();
