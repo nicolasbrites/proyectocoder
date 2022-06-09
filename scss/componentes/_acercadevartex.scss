@@ -1,0 +1,44 @@
+.portada-acercadevartex {
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../mili/acercadevartex/portadaacercadevartex.jpg);
+}
+
+.txt-acdv {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    padding: 5px;
+    width: 330px;
+    height: 100px;
+    overflow: hidden;
+    
+}
+.txt-acdv2 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+}
+
+
+
+.grid-containertres {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 90px;
+    justify-content: center;
+    width: 100%;
+    gap: 140px;
+    
+}
+
+
+
+
+@media all and (max-width: 600px) {
+    .grid-dos {
+        display: grid;
+        grid-column: 1 / span 2;
+    
+    }
+}
