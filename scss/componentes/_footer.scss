@@ -6,7 +6,7 @@
 
 .pie-pagina {
     width: 100%;
-    background-color: rgba(248, 239, 239, 0.397);
+    background-color: map-get($footer,fr-bg-color);
 
 }
 
@@ -30,14 +30,14 @@
 .pie-pagina .grupo-1 .box li {
     color: black;
     margin-bottom: 5px;
-    text-decoration: none;
-    list-style-type: none;
+    text-decoration: map-get($footer, fr-decoration);
+    list-style-type: map-get($footer, fr-lyststyle);
     font-size: 10px;
     
 
 }
 .pie-pagina .grupo-2{
-    background-color: black;
+    background-color: map-get($footer, bg-color);
     padding: 5px 5px;
     text-align: center;
     color: white;

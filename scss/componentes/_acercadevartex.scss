@@ -7,12 +7,7 @@
 }
 
 .txt-acdv {
-    font-family: 'Nunito Sans', sans-serif;
-    font-weight: 600;
-    padding: 5px;
-    width: 330px;
-    height: 100px;
-    overflow: hidden;
+    @include textoAcercaDeVartex
     
 }
 .txt-acdv2 {
@@ -23,12 +18,7 @@
 
 
 .grid-containertres {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    margin: 90px;
-    justify-content: center;
-    width: 100%;
-    gap: 140px;
+    @include acercaDeVartex
     
 }
 

@@ -1,0 +1,19 @@
+@mixin acercaDeVartex {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    margin: 90px;
+    width: 100%;
+    gap: 140px;
+    
+}
+
+@mixin textoAcercaDeVartex {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    padding: 5px;
+    width: 330px;
+    height: 100px;
+    overflow: hidden;
+    
+}

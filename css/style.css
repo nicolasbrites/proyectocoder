@@ -46,6 +46,7 @@ a:hover {
 a:active {
   color: rgba(255, 7, 7, 0.24);
 } /* Enlaces activos */
+
 .img-index-animation:hover {
   transform: scale(1.1);
   transition: all 1s;
@@ -118,8 +119,8 @@ nav ul li {
 .grid-containertres {
   display: grid;
   grid-template-columns: auto auto auto;
-  margin: 90px;
   justify-content: center;
+  margin: 90px;
   width: 100%;
   gap: 140px;
 }
